@@ -1,0 +1,81 @@
+.box {
+  display: inline-block;
+  margin-left: 60px;
+}
+
+.text-section {
+  display: flex;
+  flex-direction: column;
+  color: #806868;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+  margin: 23px 0 23px 50px
+}
+
+.name-section {
+  opacity: .5;
+}
+
+.project {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.img-project {
+  /*background: url("../../../../img/project.jpg") center no-repeat;*/
+  background-size: cover;
+  height: 250px;
+  width: 250px;
+  position: relative;
+}
+
+.description-project {
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  background-color: rgba(0, 0, 0, 0.8);
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  box-sizing: border-box;
+  padding-left: 25px;
+}
+
+.text-project {
+  display: flex;
+  flex-direction: row;
+}
+
+.text-project-span {
+  font-size: 9px;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  opacity: .5;
+  font-weight: lighter;
+}
+
+.span-sup {
+  color: #806868;
+  margin-left: 5px;
+}
+
+.wedding {
+  background: url("../../../../img/project.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.advertising-project {
+  background: url("../../../../img/advertisingpicture.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.furniture-project {
+  background: url("../../../../img/furniturepictire.jpg") center no-repeat;
+  background-size: cover;
+}

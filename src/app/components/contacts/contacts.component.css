@@ -1,0 +1,52 @@
+.box {
+  display: inline-block;
+  padding-left: 60px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+}
+
+.contacts {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  flex-direction: column;
+}
+
+.text-section {
+  display: flex;
+  flex-direction: column;
+  color: #806868;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+  margin: 23px 0 23px 25px
+}
+
+.name-section {
+  opacity: .5;
+  margin-bottom: 5px;
+}
+
+.links {
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: #000000;
+  font-family: 'Oswald', sans-serif;
+}
+
+.img-section {
+  padding: 0 25px 25px 25px;
+}
+
+.text {
+  font-size: 9px;
+  letter-spacing: 2px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.img {
+  background: url("../../../../img/contactimg.jpg") center no-repeat;
+  background-size: cover;
+  width: 250px;
+  height: 250px;
+}

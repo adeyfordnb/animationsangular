@@ -1,0 +1,89 @@
+.box {
+  display: inline-block;
+  margin-left: 60px;
+}
+
+.text-section {
+  display: flex;
+  flex-direction: column;
+  color: #806868;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+  margin: 23px 0 23px 50px
+}
+
+.name-section {
+  opacity: .5;
+}
+
+/****************PERSON*******************/
+.team {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  align-items: center;
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  margin-bottom: 25px;
+}
+
+.header-person {
+  display: flex;
+  flex-direction: row;
+}
+
+.img-person-first {
+  height: 100px;
+  width: 100px;
+  background: url("../../../../img/team1.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.img-person-second {
+  height: 100px;
+  width: 100px;
+  background: url("../../../../img/team2.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.info-person {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+}
+
+.person-list {
+  padding: 0;
+  margin: 0;
+}
+
+.list-item {
+  list-style: none;
+  font-size: 9px;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.first-span {
+  opacity: .5;
+}
+
+.second-span {
+  color: #806868;
+}
+
+.footer-person {
+  margin-top: 10px;
+}
+
+.text-footer {
+  font-size: 9px;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 2px;
+}

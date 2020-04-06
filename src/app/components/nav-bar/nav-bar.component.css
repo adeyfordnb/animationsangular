@@ -1,0 +1,47 @@
+.nav-box{
+  background-color: #161717;
+  width: 60px;
+  height: 100vh;
+  position: absolute;
+  float: left
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 12px;
+  font-family: 'Oswald', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.active {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+ul > li {
+  list-style: none;
+  height: 100%;
+}
+
+ul > li > a > span {
+  transform: rotate(-90deg);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-main-box {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
