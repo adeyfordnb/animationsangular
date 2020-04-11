@@ -8,6 +8,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { TeamComponent } from './components/team/team.component';
 import { ContactsComponent } from './components/contacts/contacts.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 
 //Routing
 import { AppRoutinModule } from './app-routin/app-routin.module';
@@ -23,7 +24,8 @@ import { AppRoutinModule } from './app-routin/app-routin.module';
   ],
   imports: [
     BrowserModule,
-    AppRoutinModule
+    AppRoutinModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

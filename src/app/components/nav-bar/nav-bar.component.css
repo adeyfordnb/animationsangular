@@ -3,10 +3,12 @@
   width: 60px;
   height: 100vh;
   position: absolute;
-  float: left
+  float: left;
+  transition: 1s;
 }
 
 a {
+  position: relative;
   text-decoration: none;
   color: #ffffff;
   text-transform: uppercase;
@@ -18,11 +20,8 @@ a {
   align-items: center;
   justify-content: center;
   height: 100%;
-}
-
-.active {
-  color: #000000;
-  background-color: #FFFFFF;
+  transition: 1s;
+  -webkit-tap-highlight-color: transparent;
 }
 
 ul > li {
@@ -45,3 +44,29 @@ ul {
   justify-content: space-around;
   flex-direction: column;
 }
+
+.nav-menu-block {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFFFFF;
+  clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+  z-index: 1;
+  transition: 0.6s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.nav-menu-block > span {
+  transform: rotate(-90deg);
+  color: black;
+}
+
+.active-nav-menu-block {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  transition: 0.6s cubic-bezier(0.76, 0, 0.24, 1);
+}
+

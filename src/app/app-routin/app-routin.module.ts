@@ -9,10 +9,10 @@ import { TeamComponent } from "../components/team/team.component";
 
 //Path
 const routes: Routes = [
-  { path: '', component: MainComponent },
-  { path: 'contacts', component: ContactsComponent },
-  { path: 'projects', component: ProjectsComponent },
-  { path: 'team', component: TeamComponent }
+  { path: '', component: MainComponent, data: {state: 'main'} },
+  { path: 'contacts', component: ContactsComponent, data: {state: 'contacts'} },
+  { path: 'projects', component: ProjectsComponent, data: {state: 'projects'} },
+  { path: 'team', component: TeamComponent, data: {state: 'team'} }
 ];
 
 @NgModule({

@@ -1,4 +1,4 @@
-<app-nav-bar></app-nav-bar>
-<main>
-  <router-outlet></router-outlet>
+<app-nav-bar style="z-index: 99"></app-nav-bar>
+<main [@routerAnimations]="getState(routerOutlet)" style="z-index: 1">
+  <router-outlet #routerOutlet="outlet"></router-outlet>
 </main>
