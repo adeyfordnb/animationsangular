@@ -1,0 +1,18 @@
+@media only screen and (max-width: 720px) {
+  /***************MAIN********************/
+
+  .text-anim {
+    font-size: 54px;
+  }
+  .description-text {
+    font-size: 19px;
+  }
+
+  .links-btn a {
+    font-size: 11px;
+  }
+  .links-btn {
+    width: 150px;
+    height: 31px;
+  }
+}

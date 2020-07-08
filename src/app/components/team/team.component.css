@@ -1,15 +1,10 @@
-.box {
-  display: inline-block;
-  margin-left: 60px;
-}
-
 .text-section {
   display: flex;
   flex-direction: column;
   color: #806868;
   font-weight: bold;
   font-family: 'Oswald', sans-serif;
-  margin: 23px 0 23px 50px
+  margin: 23px 0 23px 0px
 }
 
 .name-section {
@@ -19,16 +14,16 @@
 /****************PERSON*******************/
 .team {
   display: flex;
-  flex-direction: column;
-  width: 300px;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .person {
   display: flex;
   flex-direction: column;
   width: 250px;
-  margin-bottom: 25px;
+  margin: 15px;
 }
 
 .header-person {
@@ -36,16 +31,17 @@
   flex-direction: row;
 }
 
-.img-person-first {
+.img-person {
   height: 100px;
   width: 100px;
+}
+
+.first {
   background: url("../../../../img/team1.jpg") center no-repeat;
   background-size: cover;
 }
 
-.img-person-second {
-  height: 100px;
-  width: 100px;
+.second {
   background: url("../../../../img/team2.jpg") center no-repeat;
   background-size: cover;
 }
@@ -86,4 +82,30 @@
   font-size: 9px;
   font-family: 'Oswald', sans-serif;
   letter-spacing: 2px;
+}
+
+/***************MEDIA*********************/
+@media only screen and (min-width: 720px) {
+
+  /*****************TEAM********************/
+  .person {
+    width: 350px;
+  }
+
+  .text-footer {
+    font-size: 13px;
+  }
+
+  .img-person {
+    width: 125px;
+    height: 125px;
+  }
+
+  .info-person {
+    width: 225px;
+  }
+
+  .list-item {
+    font-size: 13px;
+  }
 }

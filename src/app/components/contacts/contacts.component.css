@@ -1,11 +1,3 @@
-.box {
-  display: inline-block;
-  padding-left: 60px;
-  box-sizing: border-box;
-  width: 100%;
-  height: 100vh;
-}
-
 .contacts {
   display: flex;
   justify-content: center;
@@ -39,8 +31,11 @@
 }
 
 .text {
+  display: block;
   font-size: 9px;
   letter-spacing: 2px;
+  width: 250px;
+  margin-bottom: 23px;
   font-family: 'Oswald', sans-serif;
 }
 
@@ -49,4 +44,20 @@
   background-size: cover;
   width: 250px;
   height: 250px;
+}
+
+@media only screen and (min-width: 720px) {
+  .img {
+    width: 350px;
+    height: 350px;
+  }
+
+  .text {
+    font-size: 13px;
+    width: 350px;
+  }
+
+  .links {
+    font-size: 13px;
+  }
 }
